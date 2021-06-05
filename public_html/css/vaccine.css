@@ -31,8 +31,9 @@ body{
     grid-area: navigation;
     border: thick solid black;
     padding: 0px 20px 0px 20px;
+    
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 #middle {
     grid-area: middle;
@@ -48,22 +49,17 @@ body{
     font-size: 0.65em;
 }
 h2 {
-      background-color: #f08c00;
-      color: #fff;
       text-align: center;
       margin: 0;
       padding: 20px;
     }
-
 .listing {
-  
   list-style: none;
   margin: 2em;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
 }
-
 .listing li {
   border: 1px solid #ffe066;
   border-radius: 5px;
