@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url('../img/background.jpg');
+}
 .gridArea {
     display: grid;
     
@@ -20,9 +23,7 @@
 #header{
     grid-area: header;
     border: thick solid black;
-    padding: 0px 20px 0px 20px;
-    
-    
+    padding: 5px 20px 0px 20px;
     font-size: 0.8em;
     text-align: center;
 }
@@ -30,21 +31,20 @@
     grid-area: navigation;
     border: thick solid black;
     padding: 0px 20px 0px 20px;
-    
+    text-align: center;
     font-size: 0.9em;
 }
 #middle {
     grid-area: middle;
     border: thick solid black;
-    padding: 0px 20px 0px 20px;
-    
+    padding: 0px 0px 0px 0px;
     font-size: 1em;
 }
 #footer {
     grid-area: footer;
     border: thick solid black;
     padding: 0px 20px 0px 20px;
-   
+    text-align: center;
     font-size: 0.65em;
 }
 h2 {
@@ -56,7 +56,7 @@ h2 {
     }
 
 .listing {
-    
+  
   list-style: none;
   margin: 2em;
   display: grid;
@@ -88,7 +88,7 @@ h2 {
 }
 
 #navigation li {
-  float: left;
+  display: inline-block;
 }
 
 #navigation li a {
