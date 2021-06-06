@@ -43,6 +43,15 @@ body{
     padding: 0px 0px 0px 0px;
     font-size: 1em;
 }
+#middle img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    
+    
+}
 #footer {
     grid-area: footer;
     border: thick solid black;
@@ -131,3 +140,5 @@ button {
   border: 1px solid #ddd;
   color: white;
 }
+
+
