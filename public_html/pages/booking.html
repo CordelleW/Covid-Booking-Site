@@ -30,12 +30,15 @@ and open the template in the editor.
             <section id="middle">
                 <h2>Book Here!</h2>
                 <form action="">
-                    First name: <input type="text" name="FirstName" value="" required><br>
-                    Last name: <input type="text" name="LastName" value="" required><br>
+                    <label>Date:<input type="date" name="Date" value="" required></label><br>
+                    <label>Time: <input type="time" name="Time" value="" required></label><br>
+                    <label>OHIP#: <input type="number" name="Ohip" value="" required></label><br>
+                    <label>Email: <input type="email" name="Email" value="" required></label><br>
+                    <label>Phone #: <input type="tel" name="Phone" value="" required></label><br>
                 </form>
 
-                <button>Serialize form values</button>
-                
+                <button id='submit'>Submit Appointment</button>
+                <button id='home'>Return to main page</button>
                 <div id="results"></div>
             </section>
             
